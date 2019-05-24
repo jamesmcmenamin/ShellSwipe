@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Swiping.Views.SwipedaBox">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Swipe Gesture -->
+            <Label Text="Swipe Gesture" class="featureHeader" Margin="0,20,0,10"/>
+            <BoxView BackgroundColor="Black" Margin="0,0,0,10" HeightRequest="1"/>
+            <Label Text="Swipe right-to-left on the green box below." Margin="0,10"/>
+            <FlexLayout BackgroundColor="Lime" WidthRequest="300" HeightRequest="300">
+                <FlexLayout.GestureRecognizers>
+                    <SwipeGestureRecognizer
+                        Direction="Down"
+                        Command="{Binding SwipeCommandT, Mode=TwoWay}"/>
+                    <SwipeGestureRecognizer
+                        Direction="Up"
+                        Command="{Binding SwipeCommandB, Mode=TwoWay}"/>
+                    <SwipeGestureRecognizer
+                        Direction="Left"
+                        Command="{Binding SwipeCommandR, Mode=TwoWay}"/>
+                    <SwipeGestureRecognizer
+                        Direction="Right"
+                        Command="{Binding SwipeCommandL, Mode=TwoWay}"/>
+                    <TapGestureRecognizer
+                        Tapped="TappedSquare"/>
+                </FlexLayout.GestureRecognizers>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

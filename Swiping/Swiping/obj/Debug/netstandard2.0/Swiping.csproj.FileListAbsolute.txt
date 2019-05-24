@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\bin\Debug\netstandard2.0\Swiping.deps.json
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\bin\Debug\netstandard2.0\Swiping.dll
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\bin\Debug\netstandard2.0\Swiping.pdb
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Views\SwipedaBox.xaml.g.cs
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.dll
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.pdb
