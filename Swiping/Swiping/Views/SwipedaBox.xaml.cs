@@ -9,50 +9,52 @@ using Xamarin.Forms.Xaml;
 
 namespace Swiping.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SwipedaBox : ContentPage
+    public class SwipedBoxViewModel
     {
-        public string Url { get; private set; } = "xamarin.com";
-
-        public Command TapCommand { get; private set; }
-
         public Command SwipeCommandL { get; private set; }
         public Command SwipeCommandT { get; private set; }
         public Command SwipeCommandR { get; private set; }
         public Command SwipeCommandB { get; private set; }
 
-        public SwipedaBox()
+        public SwipedBoxViewModel()
         {
-            InitializeComponent();
             SwipeCommandL = new Command(HandleSwipeActionL);
             SwipeCommandT = new Command(HandleSwipeActionT);
             SwipeCommandR = new Command(HandleSwipeActionR);
             SwipeCommandB = new Command(HandleSwipeActionB);
-
-            BindingContext = this;
         }
-
 
         private async void HandleSwipeActionL()
         {
-            await DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Left to Right!", "Close");
+            await Application.Current.MainPage.DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Left to Right!", "Close");
         }
         private async void HandleSwipeActionT()
         {
-            await DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Top to Bottom!", "Close");
+            await Application.Current.MainPage.DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Top to Bottom!", "Close");
         }
         private async void HandleSwipeActionR()
         {
-            await DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Right to Left!", "Close");
+            await Application.Current.MainPage.DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture Right to Left!", "Close");
         }
         private async void HandleSwipeActionB()
         {
-            await DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture!Bottom to Top", "Close");
+            await Application.Current.MainPage.DisplayAlert("Swiper No Swiping!", "Yay! You successfully used the swipe gesture!Bottom to Top", "Close");
+        }
+    }
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class SwipedaBox
+    {
+        public SwipedaBox()
+        {
+            InitializeComponent();
+
+            Content.BindingContext = new SwipedBoxViewModel();
         }
 
         private async void TappedSquare(object sender, EventArgs e)
         {
-            await DisplayAlert("Tapper No Tapping!", "Yay! You successfully used the Tap gesture!", "Close");
+            await Application.Current.MainPage.DisplayAlert("Tapper No Tapping!", "Yay! You successfully used the Tap gesture!", "Close");
 
         }
     }

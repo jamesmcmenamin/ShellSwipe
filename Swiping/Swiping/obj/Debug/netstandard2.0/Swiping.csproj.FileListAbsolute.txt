@@ -3,6 +3,7 @@ C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\bin\Debug\netstandard2.0\Swi
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\bin\Debug\netstandard2.0\Swiping.pdb
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Controls\SwipableViewControl.xaml.g.cs
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Views\SwipedaBox.xaml.g.cs
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\Swiping\Swiping\Swiping\obj\Debug\netstandard2.0\Swiping.AssemblyInfoInputs.cache

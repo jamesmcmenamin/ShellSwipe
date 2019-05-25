@@ -14,7 +14,7 @@ namespace Swiping.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SwipedaBox.xaml")]
-    public partial class SwipedaBox : global::Xamarin.Forms.ContentPage {
+    public partial class SwipedaBox : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
